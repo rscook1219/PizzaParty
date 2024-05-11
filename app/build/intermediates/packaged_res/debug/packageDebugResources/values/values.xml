@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="my_green">#11BB11</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="label_text_size">30sp</dimen>
+    <string name="app_name">Pizza Party</string>
+    <string name="calculate">Calculate</string>
+    <string name="how_hungry">How hungry?</string>
+    <string name="light">Light</string>
+    <string name="medium">Medium</string>
+    <string name="number_of_people">Number of people?</string>
+    <string name="ravenous">Ravenous</string>
+    <string name="total_pizzas">Total pizzas: ?</string>
+    <style name="Base.Theme.PizzaParty" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/my_green</item>
+    </style>
+    <style name="Theme.PizzaParty" parent="Base.Theme.PizzaParty"/>
+</resources>
